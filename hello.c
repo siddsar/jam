@@ -1,5 +1,9 @@
 #include<stdio.h>
 void microkernel_sendmsg(char *);
+void newf()
+{
+	printf("This is a new function");
+}
 void main(){
 printf("Helloworld!\n");
 printf("This must be a monolithic design\n");
